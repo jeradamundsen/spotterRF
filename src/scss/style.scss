@@ -1,1 +1,90 @@
 // Main Sass File
+
+$primary: #ffae00;
+$primary-overlay: rgba(255,255,0,.1);
+$dark-overlay: rgba(0,0,0,0.7);
+
+body{
+  margin-top: 150px;
+}
+#home-heading{
+  position: relative;
+  min-height: 300px;
+  background: url('../img/camera.jpeg');
+
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+.dark-overlay{
+  position: absolute;
+  top:0;
+  left:0;
+
+  width: 100%;
+  background-color: $dark-overlay;
+  height: 100%;
+}
+.navbar{
+  box-shadow: 2px 2px 5px $primary;
+  opacity: 0.9;
+  background: #fff;
+}
+.nav-item{
+  font-size: 1.4rem;
+  padding-right: 20px;
+}
+#what-is-spotterRF{
+  h3{
+    color: $primary;
+  }
+}
+#showcase{
+  position: relative;
+  background:url('../img/mountains.jpg');
+  min-height: 600px;
+  .primary-overlay{
+    position: absolute;
+    background: $primary-overlay;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  a{
+    color: $primary;
+  }
+}
+#about{
+  h1{
+    color: $primary;
+  }
+}
+#home-heading{
+  p{
+    color:$primary;
+  }
+}
+.info-header{
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid;
+}
+#authors{
+   img{
+     margin-top: -50px;
+   }
+   .fa{
+     font-size: 25px;
+   }
+   .card:hover{
+     background-color: $primary;
+     color: #fff;
+     .fa{
+       color: #fff;
+     }
+   }
+}
+#what-is-spotterRF{
+  border-top: solid 3px #F00;
+}

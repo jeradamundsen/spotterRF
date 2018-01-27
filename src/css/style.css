@@ -1,0 +1,70 @@
+body {
+  margin-top: 150px; }
+
+#home-heading {
+  position: relative;
+  min-height: 300px;
+  background: url("../img/camera.jpeg");
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff; }
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%; }
+
+.navbar {
+  box-shadow: 2px 2px 5px #ffae00;
+  opacity: 0.9;
+  background: #fff; }
+
+.nav-item {
+  font-size: 1.4rem;
+  padding-right: 20px; }
+
+#what-is-spotterRF h3 {
+  color: #ffae00; }
+
+#showcase {
+  position: relative;
+  background: url("../img/mountains.jpg");
+  min-height: 600px; }
+  #showcase .primary-overlay {
+    position: absolute;
+    background: rgba(255, 255, 0, 0.1);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; }
+  #showcase a {
+    color: #ffae00; }
+
+#about h1 {
+  color: #ffae00; }
+
+#home-heading p {
+  color: #ffae00; }
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid; }
+
+#authors img {
+  margin-top: -50px; }
+
+#authors .fa {
+  font-size: 25px; }
+
+#authors .card:hover {
+  background-color: #ffae00;
+  color: #fff; }
+  #authors .card:hover .fa {
+    color: #fff; }
+
+#what-is-spotterRF {
+  border-top: solid 3px #F00; }

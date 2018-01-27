@@ -26,8 +26,10 @@ body {
   font-size: 1.4rem;
   padding-right: 20px; }
 
-#what-is-spotterRF h3 {
-  color: #ffae00; }
+#what-is-spotterRF {
+  background: #4b5320; }
+  #what-is-spotterRF h3 {
+    color: #ffae00; }
 
 #showcase {
   position: relative;
@@ -65,9 +67,6 @@ body {
   color: #fff; }
   #authors .card:hover .fa {
     color: #fff; }
-
-#what-is-spotterRF {
-  border-top: solid 3px #F00; }
 
 #main-footer {
   background: #000;
